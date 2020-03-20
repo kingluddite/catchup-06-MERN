@@ -1,10 +1,3 @@
-# Mongo
-* Create a new file called Person.js
-  - The capital letter is a common naming conventions for models
-
-`[APP_ROOT]/models/Person.js`
-
-```
 const mongoose = require('mongoose');
 
 // Save a reference to the Schema constructor
@@ -16,7 +9,7 @@ const PersonSchema = new Schema({
     type: String,
     required: "You must include a name for each person"
   },
-  Social: Number, 
+  Social: Number,
   birthDay: { type: Date, default: Date.now }
 });
 
@@ -25,7 +18,3 @@ var Person = mongoose.model('Person', PersonSchema);
 
 // Export the Person model
 module.exports = Person;
-```
-
-* My model will be Person
-* You will build a Notes model in your next activity
