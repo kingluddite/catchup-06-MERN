@@ -1,14 +1,3 @@
-# Activity 1 Solution
-
-* Check that branch and:
-  - Create a new file called `Note.js`
-  - Inside this file, create a **Note** model. Each **Note** should hold a String value called "content" which is required
-  - You have 10 minutes
-
-## Solution
-`models/Node.js`
-
-```
 const mongoose = require('mongoose');
 
 // Save a reference to the Schema constructor
@@ -27,6 +16,3 @@ var Note = mongoose.model('Note', NoteSchema);
 
 // Export the Note model
 module.exports = Note;
-```
-
-
