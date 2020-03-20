@@ -23,5 +23,15 @@
 
 ```
 $ git checkout master
+$ git checkout 01-file-structure
+$ git checkout 02-boilerplate-packagejson
+$ git checkout 03-new-package
+$ git checkout 04-express-serverjs
+$ git checkout 05-add-react
+$ git checkout 06-mongo-stuff
+$ git checkout 07-activity-01-solution
+$ git checkout 08-express-routes
+$ git checkout 09-activity-02-solution
+$ git checkout 10-react-data
 ```
 
