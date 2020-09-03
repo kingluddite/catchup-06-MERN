@@ -13,6 +13,9 @@ $ cd client && npm start
 * You see the default react start page
 
 ## Swap package.json with this new stuff
+* Make sure you are inside react (`client` folder)
+    - This is the `package.json` inside client
+    - **note** You also have `package.json` inside the root of your app (this is for your backend)
 `package.json`
 
 ```
@@ -45,6 +48,7 @@ $ cd client && npm start
 }
 ```
 
+### What we just did
 * We just added a proxy (see reference link)
 * We removed some not needed dependencies for this project
 * We added axios
