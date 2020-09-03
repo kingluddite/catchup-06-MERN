@@ -88,7 +88,7 @@ class App extends Component {
 }
 ```
 
-## State is not update without page refresh
+## State is not updated without page refresh
 * Homework is to figure out why
 
 ## Add people using form
@@ -103,4 +103,4 @@ class App extends Component {
 
 ## Resources
 * [React state array add update remove](https://www.robinwieruch.de/react-state-array-add-update-remove)
-
+* [MERN, Hooks, Authentication, Authorization, ContextAPI, JWT, PassportJS, cookies, Security](https://www.youtube.com/playlist?list=PLvTjg4siRgU0HS3cANo7KZ52Wkud083TL)
