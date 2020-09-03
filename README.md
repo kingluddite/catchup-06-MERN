@@ -16,7 +16,7 @@
 * **note** You would never openly store a SS# like this (that would a security no-no, but for the sake of this discussion let's just go with it)
 
 ### The Person
-* Create a new file called Person.js
+* Create a new file called `Person.js`
   - The capital letter is a common naming conventions for models
 
 `[APP_ROOT]/models/Person.js`
@@ -33,7 +33,7 @@ const PersonSchema = new Schema({
     type: String,
     required: "You must include a name for each person"
   },
-  Social: Number, 
+  Social: Number,
   birthDay: { type: Date, default: Date.now }
 });
 
@@ -52,6 +52,6 @@ module.exports = Person;
   - You have 10 minutes
 
 ## Solution
-`$ git checkout 07-activity-01-solution` 
+`$ git checkout 07-activity-01-solution`
 
 
