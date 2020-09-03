@@ -14,7 +14,7 @@ $ echo "node_modules" >> .gitignore
 `$ node server.js`
 
 ## Error!
-* We get an error because we are pointing to something that doesn't exist
+* We get an error because we are pointing to something that doesn't exist (routes)
 * In server.js comment out that line
 
 ## Run again
@@ -28,4 +28,4 @@ $ echo "node_modules" >> .gitignore
 ## Stopping server
 `ctrl` + `c` (mac)
 
-* You can use nodemon and that saves time from having to restart the server every time you make a server side change
+* You can use `nodemon` and that saves time from having to restart the server every time you make a server side change
